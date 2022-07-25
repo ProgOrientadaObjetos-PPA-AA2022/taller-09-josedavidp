@@ -8,11 +8,11 @@ package paquete6;
  *
  * @author josed
  */
-public class InstituciónEducativa {
+public class InstitucionEducativa {
     protected String nombre;
     protected String siglas;
 
-    public InstituciónEducativa(String n, String s) {
+    public InstitucionEducativa(String n, String s) {
         nombre = n;
         siglas = s;
     }

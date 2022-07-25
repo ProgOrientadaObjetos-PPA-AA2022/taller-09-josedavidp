@@ -32,6 +32,7 @@ public class PrestamoAutomovil extends Prestamo {
         super(b, t, c);
     }
 
+    @Override
     public void establecerCiudad(String c) {
         ciudad = c.toLowerCase();
     }

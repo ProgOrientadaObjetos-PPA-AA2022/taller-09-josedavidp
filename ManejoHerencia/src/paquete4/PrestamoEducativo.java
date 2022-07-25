@@ -6,7 +6,7 @@
 package paquete4;
 
 import paquete2.Prestamo;
-import paquete6.InstituciónEducativa;
+import paquete6.InstitucionEducativa;
 import paquete7.Persona;
 
 /**
@@ -16,11 +16,11 @@ import paquete7.Persona;
 public class PrestamoEducativo extends Prestamo {
 
     private String nivelEstudio;
-    private InstituciónEducativa centroEducativo;
+    private InstitucionEducativa centroEducativo;
     private double valorCarrera;
     private double valorMensualPrestamo;
 
-    public PrestamoEducativo(Persona b, int t, String c, String ne, InstituciónEducativa ce, double vc) {
+    public PrestamoEducativo(Persona b, int t, String c, String ne, InstitucionEducativa ce, double vc) {
         super(b, t, c);
         nivelEstudio = ne;
         centroEducativo = ce;
@@ -31,7 +31,7 @@ public class PrestamoEducativo extends Prestamo {
         nivelEstudio = ne;
     }
 
-    public void establecerCentroEducativo(InstituciónEducativa ce) {
+    public void establecerCentroEducativo(InstitucionEducativa ce) {
         centroEducativo = ce;
     }
 
@@ -50,7 +50,7 @@ public class PrestamoEducativo extends Prestamo {
         return nivelEstudio;
     }
 
-    public InstituciónEducativa obtenerCentroEducativo() {
+    public InstitucionEducativa obtenerCentroEducativo() {
         return centroEducativo;
     }
 

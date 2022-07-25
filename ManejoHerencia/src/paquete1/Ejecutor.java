@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 import paquete3.PrestamoAutomovil;
 import paquete4.PrestamoEducativo;
-import paquete6.InstituciónEducativa;
+import paquete6.InstitucionEducativa;
 import paquete7.Persona;
 
 /**
@@ -91,7 +91,7 @@ public class Ejecutor {
                     String nombreInstitucion = sc.nextLine();
                     System.out.println("Ingrese las siglas de la institucion");
                     String siglasInstitucion = sc.nextLine();
-                    InstituciónEducativa institucion = new InstituciónEducativa(nombreInstitucion, siglasInstitucion);
+                    InstitucionEducativa institucion = new InstitucionEducativa(nombreInstitucion, siglasInstitucion);
                     System.out.println("Ingrese el valor de la carrera");
                     double valorCarrera = sc.nextDouble();
 
